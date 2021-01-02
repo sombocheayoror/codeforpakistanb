@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KehDo</string>
+    <string name="prompt">Choose</string>
+    <string name="title_activity_legislation">LegislationActivity</string>
+    <string name="instructions"><b><u>Note:</u></b>\nTo find your PP or NA details please follow these steps:\n\n
+\t\to\tIn your write SMS screen type your CNIC (without dashes)\n
+\t\to\tSend this SMS to 8300</string>
+</resources>

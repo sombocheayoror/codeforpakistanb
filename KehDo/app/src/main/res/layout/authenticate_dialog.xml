@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:textColor="#00ADEF"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter your Mobile number"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/etPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="e.g 03001234567"
+        android:inputType="phone"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="#000"
+ />
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#00ADEF"
+        android:text="Proceed"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@android:color/primary_text_dark" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+ >
+
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    <Button
+        android:text=""
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:focusable="false"
+        android:layout_centerVertical="true"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/info"
+        android:id="@+id/detail" />
+
+
+</RelativeLayout>
